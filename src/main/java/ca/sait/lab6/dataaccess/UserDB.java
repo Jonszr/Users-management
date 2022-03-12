@@ -7,7 +7,10 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+ * 
+ * @author Zhenrong Shi
+ */
 public class UserDB {
 
     public List<User> getAll() throws Exception {
@@ -139,7 +142,7 @@ public class UserDB {
         ConnectionPool cp = ConnectionPool.getInstance();
         Connection con = cp.getConnection();
         PreparedStatement ps = null;
-        //String sql = "DELETE FROM user WHERE email = ?";
+
         String sql = "Update user SET active = 0 WHERE email = ?";
 
         boolean deleted;

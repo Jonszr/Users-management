@@ -7,6 +7,11 @@ import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 
+ * @author Xin Su
+ */
+
 public class RoleDB {
 
     public List<Role> getAll() throws Exception {
