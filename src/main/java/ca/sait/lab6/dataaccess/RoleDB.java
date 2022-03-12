@@ -9,7 +9,7 @@ import java.util.List;
 
 /**
  * 
- * @author Xin Su
+ * @author Zhenrong Shi
  */
 
 public class RoleDB {
